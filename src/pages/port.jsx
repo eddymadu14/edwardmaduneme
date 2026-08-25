@@ -3,19 +3,44 @@ import { motion } from "framer-motion";
 // import { Button } from "@/components/ui/button";
  import { Github, ExternalLink, Mail } from "lucide-react";
 
-const projects = [ { title: "WhatsApp Automation Tool (WAutomator)",
+const projects = [ 
+  
+  { title: "WhatsApp Automation Tool (WAutomator)",
  desc: "Backend-driven system for automating WhatsApp messaging using reusable templates and scalable workflows.", features: ["Message templates",
  "Bulk messaging logic", "API-driven automation"], tech: "Node.js, Next.js", status: "In Development",
- live: "https://whatsappautomator.vercel.app/", github: "https://github.com/eddymadu14/whatsappautomator.git", backend: "https://github.com/eddymadu14/Whatsapp-automator.git" }, { title: "Project Management App (Kanban)",
- desc: "Task management system with visual workflow tracking and responsive UI.",
+ live: "https://whatsappautomator.vercel.app/", github: "https://github.com/eddymadu14/whatsappautomator.git", backend: "https://github.com/eddymadu14/Whatsapp-automator.git" }, 
+ {
+ title: "Fabulous Beddings",
+  desc: "Full-stack e-commerce platform built for a bedding brand, with product management, shopping cart, authentication, payments, and automated customer notifications.",
+  features: [
+    "Product & category management",
+    "Shopping cart & checkout",
+    "Payment integration",
+    "Authentication",
+    "Email & Telegram notifications",
+    "Responsive storefront"
+  ],
+  tech: "Next.js, TypeScript, Tailwind CSS, Node.js, MongoDB",
+  status: "Live",
+  live: "https://fabulousbeddings.vercel.app/shop",
+  github: "https://github.com/eddymadu14/fabulousbeddings.git",},
+
+
+ { title: "Project Management App (Kanban)",
+
+  desc: "Task management system with visual workflow tracking and responsive UI.",
  features: ["Kanban board", "Task state management", "Responsive design"],
- tech: "React.js", status: "Live", live: "#", github: "https://github.com/eddymadu14/Project-management-frontend.git", backend: "https://github.com/eddymadu14/Project-management-backend.git" },
+ tech: "React.js", status: "Live", live: "https://project-management-frontend-psi-two.vercel.app/register", github: "https://github.com/eddymadu14/Project-management-frontend.git", backend: "https://github.com/eddymadu14/Project-management-backend.git" },
 /*  { title: "WHOP Automation System", desc: "Processes webhook events and triggers automated actions across Discord and Telegram.",
  features: ["Webhook handling", "Discord role automation", "Telegram messaging"], tech: "Node.js, Express",
- status: "In Development", live: "#", github: "#", }, */ { title: "Landing Page System",
- desc: "Conversion-focused landing page with tracking and optimized user flow.",
+ status: "In Development", live: "#", github: "#", }, */
+
+  { title: "Landing Page System",
+ 
+  desc: "Conversion-focused landing page with tracking and optimized user flow.",
  features: ["Meta Pixel integration", "Dynamic pricing", "Mobile optimization"],
- tech: "React.js", status: "Live", live: "https://swiftostore.onrender.com/book", github: "https://github.com/eddymadu14/swiftostore", },/* { title: "Backend API Systems",
+ tech: "React.js", status: "Live", live: "https://swiftostore.onrender.com/", github: "https://github.com/eddymadu14/swiftostore", },/* { title: "Backend API Systems",
+ 
  desc: "Collection of REST APIs handling data, authentication, and async processes.",
  features: ["REST API architecture", "Async handling", "JWT auth (in progress)"],
  tech: "Node.js, Express, MongoDB", status: "In Development", live: "https://swiftostore.onrender.com/book", github: "https://github.com/eddymadu14/swiftostore", },*/ ];
