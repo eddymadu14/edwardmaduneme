@@ -30,7 +30,7 @@ const projects = [
 
   desc: "Task management system with visual workflow tracking and responsive UI.",
  features: ["Kanban board", "Task state management", "Responsive design"],
- tech: "Nodejs, React, Vite, Tailwind CSS, Express, MongoDB", status: "Live", live: "https://project-management-frontend-psi-two.vercel.app/register", github: "https://github.com/eddymadu14/Project-management-frontend.git", backend: "https://github.com/eddymadu14/Project-management-backend.git" },
+ tech: "Nodejs, React, Vite, Tailwind CSS, Express, MongoDB", status: "Live", live: "https://project-management-frontend-psi-two.vercel.app/landing", github: "https://github.com/eddymadu14/Project-management-frontend.git", backend: "https://github.com/eddymadu14/Project-management-backend.git" },
 /*  { title: "WHOP Automation System", desc: "Processes webhook events and triggers automated actions across Discord and Telegram.",
  features: ["Webhook handling", "Discord role automation", "Telegram messaging"], tech: "Node.js, Express",
  status: "In Development", live: "#", github: "#", }, */
