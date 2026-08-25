@@ -74,13 +74,19 @@ export default function Portfolio() { return ( <div className="min-h-screen bg-g
     <div className="flex flex-wrap gap-3">
       {[
         "JavaScript",
+         "Typescript",
         "Node.js",
-        "Express",
-        "React",
         "Next.js",
+        "Express",
+         "Vite",
+        "React",
+         "Tailwind CSS",
         "MongoDB",
+                 "PostgreSQL",
+
+         "Git",
         "REST APIs",
-        "Git",
+          "vercel",
       ].map((tech) => (
         <span
           key={tech}
