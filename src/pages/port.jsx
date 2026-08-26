@@ -5,10 +5,6 @@ import { motion } from "framer-motion";
 
 const projects = [ 
   
-  { title: "WhatsApp Automation Tool (WAutomator)",
- desc: "Backend-driven system for automating WhatsApp messaging using reusable templates and scalable workflows.", features: ["Message templates",
- "Bulk messaging logic", "API-driven automation"], tech: "Node.js, React, Vite, Tailwind CSS, Express, MongoDB", status: "In Development",
- live: "https://whatsappautomator.vercel.app/", github: "https://github.com/eddymadu14/whatsappautomator.git", backend: "https://github.com/eddymadu14/Whatsapp-automator.git" }, 
  {
  title: "Fabulous Beddings",
   desc: "Full-stack e-commerce platform built for a bedding brand, with product management, shopping cart, authentication, payments, and automated customer notifications.",
@@ -35,7 +31,12 @@ const projects = [
  features: ["Webhook handling", "Discord role automation", "Telegram messaging"], tech: "Node.js, Express",
  status: "In Development", live: "#", github: "#", }, */
 
-  { title: "Landing Page System",
+   { title: "WhatsApp Automation Tool (WAutomator)",
+ desc: "Backend-driven system for automating WhatsApp messaging using reusable templates and scalable workflows.", features: ["Message templates",
+ "Bulk messaging logic", "API-driven automation"], tech: "Node.js, React, Vite, Tailwind CSS, Express, MongoDB", status: "In Development",
+ live: "https://whatsappautomator.vercel.app/", github: "https://github.com/eddymadu14/whatsappautomator.git", backend: "https://github.com/eddymadu14/Whatsapp-automator.git" }, 
+ 
+ { title: "Landing Page System",
  
   desc: "Conversion-focused landing page with tracking and optimized user flow.",
  features: ["Meta Pixel integration", "Dynamic pricing", "Mobile optimization"],
